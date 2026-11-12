@@ -1,1 +1,1 @@
-PLACEHOLDER
+import type { ApiEnvelope } from './types'
