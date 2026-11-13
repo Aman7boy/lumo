@@ -22,40 +22,12 @@ import { SettingsPage } from './app/pages/Settings'
 import { TasksPage } from './app/pages/Tasks'
 import { TemplatesPage } from './app/pages/Templates'
 import { WizardPage } from './app/pages/Wizard'
-import { Categories } from './sections/Categories'
-import { Cta } from './sections/Cta'
-import { Faq } from './sections/Faq'
-import { Features } from './sections/Features'
-import { Footer } from './sections/Footer'
-import { Hero } from './sections/Hero'
-import { Metrics } from './sections/Metrics'
-import { Nav } from './sections/Nav'
-import { Pricing } from './sections/Pricing'
-import { Steps } from './sections/Steps'
-import { Tools } from './sections/Tools'
-import { UseCases } from './sections/UseCases'
+import { LandingPage } from './sections/LandingPage'
 import { navigate, useNavigation } from './lib/router'
 import { Button } from './components/Button'
 
 function Landing() {
-  return (
-    <>
-      <Nav />
-      <main>
-        <Hero />
-        <Metrics />
-        <Categories />
-        <Features />
-        <Steps />
-        <Tools />
-        <UseCases />
-        <Pricing />
-        <Faq />
-        <Cta />
-      </main>
-      <Footer />
-    </>
-  )
+  return <LandingPage />
 }
 
 function StudioRoutes() {
